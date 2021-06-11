@@ -18,7 +18,7 @@ namespace M6_BugTrackerUI.Tests.DisplayBugsUsingComponent
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
                 + Path.DirectorySeparatorChar + "Components"
-                + Path.DirectorySeparatorChar + "BugList.razor";
+                + Path.DirectorySeparatorChar + "BugList.cs";
 
             Assert.True(File.Exists(filePath), "`BugList.razor` should exist in the Components folder.");
 

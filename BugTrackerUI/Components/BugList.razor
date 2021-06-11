@@ -1,0 +1,39 @@
+﻿
+<h3>All Bugs</h3>
+
+<table>
+
+    @foreach (var bug in Bugs)
+    {
+    <tr>
+        <td>@bug.Id </td>
+        <td>@bug.Title</td>
+        <td>@bug.Description</td>
+        <td>@bug.Priority</td>
+    </tr>
+    }
+
+</table>
+
+
+@*<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Priority</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bug in Bugs)
+        {
+        <tr>
+            <td>@bug.Id </td>
+            <td>@bug.Title</td>
+            <td>@bug.Description</td>
+            <td>@bug.Priority</td>
+        </tr>
+        }
+    </tbody>
+</table>*@

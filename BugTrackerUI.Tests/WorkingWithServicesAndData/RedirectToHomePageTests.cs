@@ -19,7 +19,7 @@ namespace M4_BugTrackerUI.Tests.WorkingWithServicesAndData
         {
             var filePath = TestHelpers.GetRootString() + "BugTrackerUI"
                     + Path.DirectorySeparatorChar + "Pages"
-                    + Path.DirectorySeparatorChar + "NewBug.razor";
+                    + Path.DirectorySeparatorChar + "NewBug.cs";
 
             Assert.True(File.Exists(filePath), "`NewBug.razor` was not found.");
 

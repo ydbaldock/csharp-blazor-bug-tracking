@@ -2,9 +2,10 @@
 
 namespace BugTrackerUI.Pages
 {
+    // ReSharper disable once InconsistentNaming
     public partial class NewBug
     {
-        public Bug AddBug => new Bug();
+        public Bug AddBug { get; set; } = new Bug();
 
         [Inject]
         public IBugService BugService { get; set; }
